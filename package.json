@@ -1,0 +1,38 @@
+{
+  "name": "npm-outdated-fix",
+  "version": "1.0.0",
+  "description": "Interactive npm dependency updater. Select packages, see changelogs, update safely. Zero deps.",
+  "type": "module",
+  "bin": {
+    "npm-outdated-fix": "./index.js",
+    "nof": "./index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "developer-tools",
+    "cli",
+    "nodejs",
+    "zero-dependencies",
+    "npm",
+    "dependencies",
+    "updates",
+    "interactive"
+  ],
+  "license": "MIT",
+  "author": "NickCirv",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NickCirv/npm-outdated-fix.git"
+  },
+  "homepage": "https://github.com/NickCirv/npm-outdated-fix#readme",
+  "bugs": {
+    "url": "https://github.com/NickCirv/npm-outdated-fix/issues"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ]
+}
