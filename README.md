@@ -1,3 +1,5 @@
+![Banner](banner.svg)
+
 # npm-outdated-fix
 
 > Interactive npm updater. Select packages, see changelogs, update safely. Zero deps.
