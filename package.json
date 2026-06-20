@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "description": "Interactive npm dependency updater. Select packages, see changelogs, update safely. Zero deps.",
   "type": "module",
+  "scripts": {
+    "test": "node --test"
+  },
   "bin": {
     "npm-outdated-fix": "./index.js",
     "nof": "./index.js"
   },
   "engines": {
-    "node": ">=18"
+    "node": ">=20"
   },
   "keywords": [
     "developer-tools",
